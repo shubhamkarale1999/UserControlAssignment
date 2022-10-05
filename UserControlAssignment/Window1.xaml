@@ -1,0 +1,25 @@
+﻿<Window x:Class="UserControlAssignment.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControlAssignment"
+        xmlns:userControl="clr-namespace:UserControlAssignment"
+        mc:Ignorable="d"
+        Title="Window1" Height="1104" Width="2211">
+    <Grid Margin="0,0,10,-279">
+        <userControl:MobileApplication Margin="100,106,1763,733" Loaded="MobileApplication_Loaded"></userControl:MobileApplication>
+        <userControl:MobileApplication Margin="450,106,1413,733" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="808,122,1105,749" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="100,567,1763,272" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1152,122,762,749" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1800,106,63,733" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="450,567,1413,272" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="808,583,1105,288" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1152,583,762,288" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1488,122,426,749" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1800,567,63,272" Loaded="MobileApplication_Loaded"/>
+        <userControl:MobileApplication Margin="1488,583,426,288" Loaded="MobileApplication_Loaded"/>
+
+    </Grid>
+</Window>
